@@ -54,7 +54,9 @@ $(document).ready(function(){
 // };
 
 function animate() {
+   if ($(window).width() >= 992) {
       new WOW().init();
+   }
 };
 
 // function circle() {
