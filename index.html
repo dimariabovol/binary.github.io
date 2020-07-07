@@ -11,12 +11,14 @@
    <div class="wrapper">
       <section class="hero" id="anchorhome">
          <div class="container">
-            <a href="#" class="hero__logo wow">
-               <img src="img/logo-footer.png" alt="binary">
-            </a>
+            <div class="hero__top wow">
+               <a href="#" class="hero__logo">
+                  <img src="img/logo.png" alt="binary">
+               </a>
+            </div>
             <div class="hero__content wow">
-               <h1 class="hero__title">Hello, I'm Dmitriy Riabovol</h1>
-               <p class="hero__subtitle">Front-End developer, locate in Kharkiv</p>
+               <h1 class="hero__title">Clear, smart, attractive design</h1>
+               <p class="hero__subtitle">for your app, logo, website</p>
             </div>
             <div class="hero__bottom wow">
                <a href="#anchorcontact" class="hero__btn btn">Contact Me</a>
@@ -40,38 +42,45 @@
          <div class="container">
             <div class="about__heading">
                <h2 class="about__title title wow">About</h2>
-               <div class="about__subtitle wow">We specialize in contemporary, functional, 
-                  and stunning websites with design that really brings that "WOW" factor.
-                  In our design process, we make sure to stay one step ahead of the latest trends, <br>
-                  never forgetting to abide by key web standards.
-               </div>
+               <div class="about__text wow">We specialize in contemporary, functional, and stunning websites with design that really brings that "WOW" factor. 
+                  In our design process, we make sure to stay one step ahead of the latest trends, 
+                  never forgetting to abide by key web standards. </div>
             </div>
             <div class="about__list">
                <div class="about__block wow">
                   <div class="item-about">
-                     <div class="item-about__img"><img src="img/about/web.png" alt="web"></div>
+                     <div class="item-about__img">
+                        <img src="img/about/web.png" alt="web">
+                     </div>
                      <div class="item-about__title">Web</div>
-                     <p class="item-about__text">We tend to deliver unique and 
+                     <div class="item-about__text">
+                        We tend to deliver unique and 
                         functional design, through 
-                        innovation and creativity.</p>
+                        innovation and creativity.</div>
                   </div>
                </div>
                <div class="about__block wow">
                   <div class="item-about">
-                     <div class="item-about__img"><img src="img/about/ios.png" alt="ios"></div>
+                     <div class="item-about__img">
+                        <img src="img/about/ios.png" alt="ios">
+                     </div>
                      <div class="item-about__title">Ios and Android</div>
-                     <p class="item-about__text">We seek to bring new businesses and 
+                     <div class="item-about__text">
+                        We seek to bring new businesses and 
                         customers closer together through valuable 
-                        insights and proper targeting.</p>
+                        insights and proper targeting.</div>
                   </div>
                </div>
                <div class="about__block wow">
                   <div class="item-about">
-                     <div class="item-about__img target"><img src="img/about/marketing.png" alt="marketing"></div>
+                     <div class="item-about__img marketing">
+                        <img src="img/about/marketing.png" alt="marketing">
+                     </div>
                      <div class="item-about__title">Marketing</div>
-                     <p class="item-about__text">We’ll help you establish the right goals 
+                     <div class="item-about__text">
+                        We’ll help you establish the right goals 
                         and build the right paths. Success depends 
-                        on setting the right intention.</p>
+                        on setting the right intention.</div>
                   </div>
                </div>
             </div>
@@ -90,9 +99,21 @@
             </div>
             <div class="portfolio__list">
                <div class="portfolio__item wow">
-                  <a href="https://dimariabovol.github.io/testing.github.io/" class="portfolio__link">
-                     <img src="img/portfolio/lionsale.jpg" alt="portfolio">
-                     <span class="portfolio__name">Агенство полного цикла<br><strong>Lion Sale</strong></span>
+                  <a href="#" class="portfolio__link">
+                     <img src="img/portfolio/01.jpg" alt="portfolio">
+                     <span class="portfolio__name"><strong>Portfolio name</strong></span>
+                  </a>
+               </div>
+               <div class="portfolio__item wow">
+                  <a href="#" class="portfolio__link">
+                     <img src="img/portfolio/02.jpg" alt="portfolio">
+                     <span class="portfolio__name"><strong>Portfolio name</strong></span>
+                  </a>
+               </div>
+               <div class="portfolio__item wow">
+                  <a href="#" class="portfolio__link">
+                     <img src="img/portfolio/03.jpg" alt="portfolio">
+                     <span class="portfolio__name"><strong>Portfolio name</strong></span>
                   </a>
                </div>
                <div class="portfolio__item wow">
@@ -142,18 +163,18 @@
          <div class="container">
             <h2 class="contact__title title wow">Contact</h2>
             <div class="contact__content">
-               <form action="#" class="contact__form wow">
-                  <div class="contact__input">
+               <form class="contact__form wow">
+                  <div class="contact__input name">
                      <label for="#">Your name</label>
-                     <input type="text">
+                     <input name="Name" type="text" required>
                   </div>
-                  <div class="contact__input">
+                  <div class="contact__input email">
                      <label for="#">Your e-mail</label>
-                     <input type="text">
+                     <input name="E-mail" type="text" required>
                   </div>
                   <div class="contact__message">
                      <label for="#">Message</label>
-                     <textarea></textarea>
+                     <textarea name="Message"></textarea>
                   </div>
                   <div class="contact__btn">
                      <button class="contact__send" type="submit">Send</button>
@@ -163,9 +184,9 @@
                   <p class="contact__text">Have an idea for a project?<br>
                      Just looking to see the possibilities?<br>
                      I'm here to help.</p>
-                  <div class="contact__name">Riabovol Dmitriy</div>
+                  <div class="contact__name">Ivanov Ivan</div>
                   <div class="contact__social social">
-                     <a href="https://www.facebook.com/profile.php?id=100013009810107" class="social__link">
+                     <a href="#" class="social__link">
                         <svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use>
                            <symbol id="icon-facebook" viewBox="0 0 32 32">
                               <path d="M16 0c-8.822 0-16 7.178-16 16s7.178 16 16 16 16-7.178 16-16-7.178-16-16-16zM16 30.169c-7.813 0-14.169-6.356-14.169-14.169s6.356-14.169 14.169-14.169 14.169 6.356 14.169 14.169-6.356 14.169-14.169 14.169z"></path>
@@ -173,7 +194,7 @@
                               </symbol>
                         </svg>
                      </a>
-                     <a href="https://www.instagram.com/dima_riabovol/" class="social__link">
+                     <a href="#" class="social__link">
                         <svg class="icon icon-instagram"><use xlink:href="#icon-instagram"></use>
                            <symbol id="icon-instagram" viewBox="0 0 32 32">
                               <path d="M16 0c-8.822 0-16 7.178-16 16s7.178 16 16 16 16-7.178 16-16-7.178-16-16-16zM16 30.169c-7.813 0-14.169-6.356-14.169-14.169s6.356-14.169 14.169-14.169 14.169 6.356 14.169 14.169-6.356 14.169-14.169 14.169z"></path>
@@ -184,7 +205,7 @@
                               </symbol>
                         </svg>
                      </a>
-                     <a href="https://www.linkedin.com/in/dmitriy-riabovol-5a091819b/" class="social__link">
+                     <a href="#" class="social__link">
                         <svg class="icon icon-linkedin"><use xlink:href="#icon-linkedin"></use>
                            <symbol id="icon-linkedin" viewBox="0 0 32 32">
                               <path d="M16 0c-8.822 0-16 7.178-16 16s7.178 16 16 16 16-7.178 16-16-7.178-16-16-16zM16 30.169c-7.813 0-14.169-6.356-14.169-14.169s6.356-14.169 14.169-14.169 14.169 6.356 14.169 14.169-6.356 14.169-14.169 14.169z"></path>
@@ -196,8 +217,8 @@
                      </a>
                   </div>
                   <div class="contact__feedback">
-                     <span>e-mail:<a href="mailto:ryabovoldima@gmail.com">ryabovoldima@gmail.com</a></span>
-                     <span>tel:<a href="tel:+3801902145">+38(097)190-21-45</a></span>
+                     <span>e-mail:<a href="#">example@example.com</a></span>
+                     <span>tel:<a href="#">+38(091)199-91-99</a></span>
                   </div>
                </div>
             </div>
@@ -210,9 +231,9 @@
             </a>
             <nav class="footer__nav wow">
                <a href="#anchorhome" class="footer__link footer__link_active">Home</a>
-               <a href="#https://www.facebook.com/profile.php?id=100013009810107" class="footer__link">Facebook</a>
-               <a href="#https://www.instagram.com/dima_riabovol/" class="footer__link">Instagram</a>
-               <a href="#https://www.linkedin.com/in/dmitriy-riabovol-5a091819b/" class="footer__link">LinkedIn</a>
+               <a href="#" class="footer__link">Facebook</a>
+               <a href="#" class="footer__link">Instagram</a>
+               <a href="#" class="footer__link">LinkedIn</a>
                <a href="#anchorcontact" class="footer__link">Contact</a>
             </nav>
             <div class="footer__text wow">&copy; 2020. All Rights Reserved</div>
@@ -227,8 +248,7 @@
       </a>
    </div>
 
-   
-   <!-- <script src="https://code.jquery./com/jquery-1.12.4.min.js"></script> -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
    <script src="js/libs.min.js"></script>
    <script src="js/main.js"></script>
 
