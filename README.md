@@ -1,6 +1,6 @@
-# art-studio Binary
+# Art-studio Binary
 
-I made this landing page for my portfolio.
+I made this [Binary landing page](https://dimariabovol.github.io/binary.github.io/) for my portfolio.
 
 I found Binary psd layout, when I was learning the [BEM-methodology](https://en.bem.info/methodology/), and I use this methodology in my project.
 
